@@ -15,9 +15,9 @@ export const MobileMenu = ({
   onClickFn: () => void;
 }) => {
   return (
-    <ul className="flex flex-col items-center h-screen bg-[#FAFAFE]">
+    <ul className="flex flex-col mt-4 items-center h-screen text-xl bg-[#FAFAFE]">
       {items.map((link, index) => (
-        <li key={index}>
+        <li key={index} className="py-4 uppercase">
           <NavLink onClickFn={onClickFn} href={link.path}>
             {link.name}
           </NavLink>

@@ -48,11 +48,11 @@ const Navbar = () => {
         <div className="block md:hidden">
           {!isNavbarOpen ? (
             <button aria-label="menu" onClick={handleNavbarClick}>
-              <Bars3Icon className="h-5 w-5" />
+              <Bars3Icon className="h-8 w-8" />
             </button>
           ) : (
             <button onClick={handleNavbarClick}>
-              <XMarkIcon className="h-5 w-5" />
+              <XMarkIcon className="h-8 w-8" />
             </button>
           )}
         </div>

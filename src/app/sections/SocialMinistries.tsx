@@ -6,7 +6,7 @@ import SectionCard from "../components/SectionCard";
 const SocialMinistries = () => {
   return (
     <section
-      id="ministerios"
+      id="compromiso-social"
       className="flex flex-col items-center md:gap-10 gap-6"
     >
       <div className="inline-flex flex-col md:mb-8 mb-3">

@@ -46,7 +46,7 @@ const SectionCard = ({
       </div>
       <div
         className={cn(
-          "md:col-span-5 flex flex-col justify-center relative text-center md:px-16 px-8 h-[8rem] w-full",
+          "md:col-span-5 flex flex-col justify-center relative text-center md:px-16 px-8 md:h-full h-[8rem] w-full",
           isImageRight ? "md:col-start-8" : "md:col-start-1"
         )}
       >

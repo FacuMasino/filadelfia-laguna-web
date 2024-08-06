@@ -12,6 +12,10 @@ export const menuItems = [
     path: "ministerios",
   },
   {
+    name: "Compromiso Social",
+    path: "compromiso-social",
+  },
+  {
     name: "Contacto",
     path: "contacto",
   },
