@@ -25,7 +25,7 @@ const SectionCard = ({
   return (
     <section
       className={cn(
-        "grid md:grid-cols-12 md:grid-rows-1 relative h-full w-full border rounded-2xl text-black -z-10",
+        "grid md:grid-cols-12 grid-cols-1 md:grid-rows-1 grid-rows-[max-content_1fr] relative h-full w-full border rounded-2xl text-black -z-10",
         className
       )}
     >
@@ -46,11 +46,11 @@ const SectionCard = ({
       </div>
       <div
         className={cn(
-          "md:col-span-5 flex flex-col justify-center relative text-center md:px-16 px-8 h-full w-full",
+          "md:col-span-5 flex flex-col justify-center relative text-center md:px-16 px-8 h-[8rem] w-full",
           isImageRight ? "md:col-start-8" : "md:col-start-1"
         )}
       >
-        <h1 className="md:text-black text-white font-spacegrotesk font-medium text-4xl md:hidden py-8 z-10">
+        <h1 className="md:text-black text-white font-spacegrotesk font-medium text-4xl md:hidden py-4 z-10">
           {title}
         </h1>
         <div className="md:hidden absolute left-0 inset-0 bg-black opacity-30 rounded-b-none rounded-2xl z-0"></div>
