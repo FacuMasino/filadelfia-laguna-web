@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="flex flex-col">
               <h2 className="font-medium font-montserrat">Contactanos</h2>
               <ul className="text-gray-400">
-                <li>(2227) 111222333</li>
+                <li>(2227) 516783</li>
                 <li>
                   <a href="mailto:info@filadelfialaguna.com.ar">
                     info@filadelfialaguna.com.ar
