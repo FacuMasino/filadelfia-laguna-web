@@ -24,7 +24,7 @@ const SectionCard = ({
   return (
     <section
       className={cn(
-        "grid md:grid-cols-12 grid-cols-1 md:grid-rows-1 grid-rows-[max-content_1fr] relative h-full w-full border rounded-2xl text-black -z-10",
+        "grid md:grid-cols-12 grid-cols-1 md:grid-rows-1 grid-rows-[max-content_1fr] relative h-full w-full border rounded-2xl text-black",
         className
       )}
     >
@@ -49,16 +49,16 @@ const SectionCard = ({
           isImageRight ? "md:col-start-8" : "md:col-start-1"
         )}
       >
-        <h1 className="md:text-black text-white font-spacegrotesk font-medium text-4xl md:hidden py-4 z-10">
+        <h1 className="md:text-black text-white font-spacegrotesk font-medium text-4xl md:hidden py-4 z-20">
           {title}
         </h1>
-        <div className="md:hidden absolute left-0 inset-0 bg-black opacity-30 rounded-b-none rounded-2xl z-0"></div>
+        <div className="md:hidden absolute left-0 inset-0 bg-black opacity-30 rounded-b-none rounded-2xl z-10"></div>
         <Image
           fill
           alt={imgAlt}
           src={imgSrc}
           className={cn(
-            "object-cover rounded-2xl -z-10",
+            "object-cover rounded-2xl",
             isImageRight
               ? "md:rounded-s-none md:rounded-e-2xl"
               : "md:rounded-e-none md:rounded-s-2xl",

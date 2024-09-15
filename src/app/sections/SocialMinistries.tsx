@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import BigCard from "../components/BigCard";
 import SectionCard from "../components/SectionCard";
+import { Button, buttonVariants } from "@/components/ui/button";
+import Link from "next/link";
 
 const SocialMinistries = () => {
   return (
@@ -50,6 +52,13 @@ const SocialMinistries = () => {
           brinda a los turistas. Es un servicio abierto a toda la comunidad y
           totalmente gratuito.
         </p>
+        <Link
+          href="https://www.facebook.com/labolsalaguna/"
+          target="_blank"
+          className={buttonVariants({ variant: "default" })}
+        >
+          Visitar página
+        </Link>
       </SectionCard>
       <SectionCard
         title="DECORACIÓN Y PROTOCOLO"
