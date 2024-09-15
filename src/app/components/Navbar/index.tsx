@@ -19,6 +19,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", changeNavBg);
+
     return () => {
       window.removeEventListener("scroll", changeNavBg);
     };
@@ -30,8 +31,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`transition-colors ease-in-out duration-200 fixed w-full top-0 z-20 ${clsx(
-        (isNavbarOpen || navBg) && "bg-[#FAFAFE]"
+      className={`transition-colors ease-in-out duration-200 sticky w-full top-0 z-20 ${clsx(
+        (isNavbarOpen || navBg) && "bg-[#FAFAFE] drop-shadow"
       )}`}
     >
       <div className="container mx-auto flex items-center justify-between py-5 md:px-10 px-7">

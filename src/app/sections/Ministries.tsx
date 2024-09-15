@@ -9,20 +9,26 @@ const Ministries = () => {
         <div className="text-center md:px-16 px-8 mb-3">
           <span className="uppercase">Conocé nuestros</span>
           <h1 className="font-spacegrotesk font-medium text-4xl">
-            Ministerios
+            MINISTERIOS
           </h1>
         </div>
         <div className="border-t border-black"></div>
       </div>
-      <p className="text-2xl text-center mb-3">
-        Lorem ipsum dolor sit amet consectetur. Convallis adipiscing felis
-        ultricies integer dignissim purus. Sodales fermentum non eget ut mauris.
-        Etiam iaculis in quam malesuada. Integer elementum congue risus integer
-        diam quis mauris et. Facilisi arcu nec pharetra viverra et montes
-        malesuada malesuada.
+      <p className="text-2xl text-center">
+        En el Nuevo Testamento, el ministerio es visto como un servicio a Dios y
+        a otras personas en Su nombre. Jesús brindó el modelo para el ministerio
+        cristiano:{" "}
+        <span className="italic">
+          no vino a recibir el servicio, sino a darlo.
+        </span>
+      </p>
+      <p className="text-2xl text-center mb-4">
+        Esa es la tarea que Jesús nos dejo con su propio ejemplo, poder servir a
+        otros. Por eso tenemos diferentes ministerios, que intentan servir a
+        cada persona que lo necesite.
       </p>
       <div className="grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-6 w-full">
-        <BigCard title="Kid's" imgSrc="/images/kidsbg.jpg" imgAlt="Kid's">
+        <BigCard title="KID'S" imgSrc="/images/kidsbg.jpg" imgAlt="Kid's">
           <p className="text-lg">
             Dedicado a los más pequeñitos, niñas y niños que se renunen para
             aprender la palabra de Dios a través de juegos y enseñanzas
@@ -31,9 +37,9 @@ const Ministries = () => {
           </p>
         </BigCard>
         <BigCard
-          title="Adolescentes"
+          title="ADOLESCENTES"
           imgSrc="/images/teensbg.jpg"
-          imgAlt="Adolescentes"
+          imgAlt="ADOLESCENTES"
         >
           <p className="text-lg">
             Dedicado a los más pequeñitos, niñas y niños que se renunen para
@@ -43,9 +49,9 @@ const Ministries = () => {
           </p>
         </BigCard>
         <BigCard
-          title="Laboriosas"
+          title="LABORIOSAS"
           imgSrc="/images/womenbg.jpg"
-          imgAlt="Mujeres"
+          imgAlt="MUJERES"
         >
           <p className="text-lg">
             Ministerio de mujeres que trabaja incansablemente para bendecir a
@@ -55,9 +61,9 @@ const Ministries = () => {
           </p>
         </BigCard>
         <BigCard
-          title="Varones Esforzados"
+          title="VARONES ESFORZADOS"
           imgSrc="/images/menbg.jpg"
-          imgAlt="Hombres"
+          imgAlt="HOMBRES"
         >
           <p className="text-lg">
             Enseñando la Biblia como guía de vida. Trata temas de actualidad e
@@ -66,7 +72,7 @@ const Ministries = () => {
           </p>
         </BigCard>
         <BigCard
-          title="Alabanza y Coreografía"
+          title="ALABANZA Y COREOGRAFÍA"
           imgSrc="/images/worshipbg.jpg"
           imgAlt="Alabanza y Coreografía"
         >
@@ -76,7 +82,7 @@ const Ministries = () => {
           </p>
         </BigCard>
         <BigCard
-          title="Enseñanza"
+          title="ENSEÑANZA"
           imgSrc="/images/studybg.jpg"
           imgAlt="Enseñanza"
         >

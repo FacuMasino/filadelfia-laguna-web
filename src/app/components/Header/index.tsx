@@ -4,8 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header id="home" className="relative text-black h-[70vh]">
-      <Navbar />
+    <header id="home" className="absolute top-0 w-full text-black h-[70vh]">
       <div className="relative mx-auto container h-full w-full pt-20 px-10 z-10">
         <section className="flex flex-col md:items-start items-center justify-center h-full md:text-black text-white">
           <p className="font-bold text-md text-center tracking-[0.4em] md:bg-white md:bg-opacity-50 bg-gray-600 bg-opacity-30 mb-2">
