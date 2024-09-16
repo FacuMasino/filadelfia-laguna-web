@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`transition-colors ease-in-out duration-200 sticky w-full top-0 z-20 ${clsx(
+      className={`transition-colors ease-in-out duration-200 sticky w-full top-0 z-30 ${clsx(
         (isNavbarOpen || navBg) && "bg-[#FAFAFE] drop-shadow"
       )}`}
     >
