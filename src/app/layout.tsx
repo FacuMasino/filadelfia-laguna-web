@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { cn } from "@/lib/utils";
 import Navbar from "./components/Navbar";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const roboto = Roboto({
   weight: ["400", "500"],
@@ -62,6 +63,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-YNS638SJY6" />
     </html>
   );
 }

@@ -35,7 +35,8 @@ const ContactDialog = () => {
           <WhatsAppSvg width={40} height={40} />
           <a
             className="after:absolute after:inset-0 ps-4"
-            href="https://filadelfialaguna.com.ar/wpp"
+            href="https://bit.ly/filadelfialaguna-wpp"
+            target="_blank"
           >
             WhatsApp
           </a>
