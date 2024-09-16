@@ -5,6 +5,7 @@ import React from "react";
 import FacebookSvg from "@/app/assets/FacebookSvg";
 import { Link } from "react-scroll";
 import { MapPinIcon } from "@heroicons/react/24/solid";
+import UadLogo from "@/app/assets/UadLogo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,12 +13,12 @@ const Footer = () => {
     <footer className="bg-black rounded-t-[50px] md:mt-10 mt-7">
       <div className="container flex md:flex-row flex-col md:gap-0 gap-4 items-start justify-between md:pt-10 pt-7 md:px-10 px-7 text-white">
         <div className="flex flex-col md:w-1/2 w-full">
-          <div className="flex flex-col">
+          <div className="md:flex hidden flex-col">
             <Link to={"home"} href={`#home`} smooth={true} duration={500}>
               <Logo bgColor="#fff" />
             </Link>
           </div>
-          <div className="flex justify-between gap-4 md:pt-10 pt-7">
+          <div className="flex justify-between gap-4 md:pt-10 pt-0">
             <div className="flex flex-col">
               <h2 className="font-medium font-montserrat">Contactanos</h2>
               <ul className="text-gray-400">
@@ -29,13 +30,18 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="https://m.me/133917909411" target="_blank">
-                    Mensaje directo via Facebook
+                    Mensaje via Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="https://fb.com/filadelfialaguna" target="_blank">
-                    <FacebookSvg bgColor="#fff" width={25} height={25} />
-                  </a>
+                  <div className="flex gap-2 items-center mt-1">
+                    <a href="https://fb.com/filadelfialaguna" target="_blank">
+                      <FacebookSvg bgColor="#fff" width={25} height={25} />
+                    </a>
+                    <a href="https://www.uad.org.ar/" target="_blank">
+                      <UadLogo logoColor="#fff" width={40} height={20} />
+                    </a>
+                  </div>
                 </li>
               </ul>
             </div>
